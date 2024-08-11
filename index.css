@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: #123;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+}
+
+.score {
+    color: red;
+    font-size: 4rem;
+    line-height: 0;
+}
